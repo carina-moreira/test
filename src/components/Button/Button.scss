@@ -1,0 +1,76 @@
+//#region Mixins
+@mixin iconSize($size) {
+  .link--icon {
+    max-width: $size;
+    max-height: $size;
+    width: $size;
+    height: $size;
+  }
+}
+
+@mixin textStyle($color) {
+  border-color: transparent;
+  color: $color;
+  background-color: transparent;
+}
+//#endregion Mixins
+
+.link {
+  display: block;
+  text-decoration: none;
+}
+
+.button,
+.link {
+  padding: 12px 16px;
+  width: fit-content;
+  color: var(--scale-12);
+  background-color: var(--scale-1);
+  border: 1px solid var(--scale-5);
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+
+  &.icon {
+    display: flex;
+    padding: 8px;
+    background-color: transparent;
+    border: 0;
+    &.small {
+      @include iconSize(16px);
+    }
+    &.regular {
+      @include iconSize(20px);
+    }
+  }
+
+  &:hover:not(.active) {
+    background-color: var(--scale-4);
+    border-color: var(--scale-4);
+  }
+
+  &.primary-outline {
+    border-color: var(--red);
+    color: var(--red);
+  }
+
+  &.primary-text {
+    @include textStyle(var(--red));
+  }
+
+  &.scale-text {
+    @include textStyle(var(--scale-12));
+  }
+
+  &.active,
+  &.primary-full {
+    background-color: var(--red);
+    border: 1px solid var(--red);
+    color: var(--button-text-active);
+
+    &:hover {
+      background-color: var(--red);
+      opacity: 0.8;
+    }
+  }
+}

@@ -1,0 +1,39 @@
+.home {
+  min-height: 100vh;
+  max-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  isolation: isolate;
+  overflow: hidden;
+
+  &__intro {
+    max-width: 80%;
+    height: calc(100vh - (42px + 60px));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+
+    &__text {
+      text-align: center;
+      color: var(--scale-12);
+
+      &--subtitle {
+        font-size: var(--font-size-5);
+      }
+      &--title {
+        font-size: var(--font-size-1);
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    &__intro {
+      max-width: unset;
+      width: 100%;
+    }
+  }
+}

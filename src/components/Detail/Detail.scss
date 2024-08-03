@@ -1,0 +1,29 @@
+.detail {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0;
+  gap: 20px;
+
+  &__left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    position: relative;
+
+    &--txt {
+      font-size: var(--font-size-3);
+      color: var(--scale-12);
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .detail {
+    flex-direction: column;
+    &__left,
+    &__right {
+      width: 100%;
+    }
+  }
+}

@@ -1,0 +1,11 @@
+.tag {
+  padding: 8px 14px;
+  width: fit-content;
+  background-color: var(--scale-3);
+  border-radius: 8px;
+  &__label {
+    font-size: var(--font-size-5);
+    color: var(--scale-12);
+    text-transform: uppercase;
+  }
+}
