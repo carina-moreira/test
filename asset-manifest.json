@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/carina-moreira/static/css/main.a9a3129b.css",
+    "main.js": "/carina-moreira/static/js/main.b6d56d15.js",
+    "static/js/453.2b9430d9.chunk.js": "/carina-moreira/static/js/453.2b9430d9.chunk.js",
+    "static/media/cv_carinamoreira.pdf": "/carina-moreira/static/media/cv_carinamoreira.41505ecc4bdb3ca89314.pdf",
+    "static/media/carinamoreira.jpeg": "/carina-moreira/static/media/carinamoreira.7a18f2609f6480c456cf.jpeg",
+    "static/media/icon_css.svg": "/carina-moreira/static/media/icon_css.c445996e81a07f9c6b0bc5b09b527256.svg",
+    "static/media/sketch_duke.gif": "/carina-moreira/static/media/sketch_duke.fffb9742fb5508a534fd.gif",
+    "static/media/icon_javascript.svg": "/carina-moreira/static/media/icon_javascript.8debc22faa04c6c66fc6a51ae858ba56.svg",
+    "static/media/icon_email_darkmode.svg": "/carina-moreira/static/media/icon_email_darkmode.1fee7897a59bcb960325e2e333306307.svg",
+    "static/media/icon_email_lightmode.svg": "/carina-moreira/static/media/icon_email_lightmode.93d3c12adfac91398299f5e7bf94396c.svg",
+    "static/media/icon_sun.svg": "/carina-moreira/static/media/icon_sun.86903f8fc49d14d439dbc6753b580ec8.svg",
+    "static/media/icon_typescript.svg": "/carina-moreira/static/media/icon_typescript.9ad81d2e09b9cd2265cdb1e55d83a709.svg",
+    "static/media/icon_linkedin_darkmode.svg": "/carina-moreira/static/media/icon_linkedin_darkmode.502037dc8511a5bf6fea6a38a18c951b.svg",
+    "static/media/icon_linkedin_lightmode.svg": "/carina-moreira/static/media/icon_linkedin_lightmode.5b5b795de6e1664ae1a3fc7574d2cfc5.svg",
+    "static/media/icon_dribbble_darkmode.svg": "/carina-moreira/static/media/icon_dribbble_darkmode.9426c7d67706af5a2939a3a19a98dc79.svg",
+    "static/media/icon_dribbble_lightmode.svg": "/carina-moreira/static/media/icon_dribbble_lightmode.08ba6627770631547fd7352726d06da8.svg",
+    "static/media/icon_scss.svg": "/carina-moreira/static/media/icon_scss.67cd0525916c4cdea4eb3abd8ae11137.svg",
+    "static/media/icon_angular.svg": "/carina-moreira/static/media/icon_angular.1fd4bbed6c6768b2fc3d823e861ebd80.svg",
+    "index.html": "/carina-moreira/index.html",
+    "static/media/icon_html.svg": "/carina-moreira/static/media/icon_html.5804150e47fbeb132a5d2688f08ce4c8.svg",
+    "static/media/icon_moon.svg": "/carina-moreira/static/media/icon_moon.96de3ea1530d12859e35f25b49abdf10.svg",
+    "static/media/icon_react.svg": "/carina-moreira/static/media/icon_react.928f956d9c8ebcffb98a8e917154a81a.svg",
+    "main.a9a3129b.css.map": "/carina-moreira/static/css/main.a9a3129b.css.map",
+    "main.b6d56d15.js.map": "/carina-moreira/static/js/main.b6d56d15.js.map",
+    "453.2b9430d9.chunk.js.map": "/carina-moreira/static/js/453.2b9430d9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a9a3129b.css",
+    "static/js/main.b6d56d15.js"
+  ]
+}
